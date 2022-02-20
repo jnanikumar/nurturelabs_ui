@@ -1,0 +1,159 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.App {
+  background-color: black;
+}
+
+.alert {
+  background-color: #1b98f5;
+  text-align: center;
+  border-radius: 0px;
+  color: azure;
+}
+
+.nameAvatar {
+  width: 30px;
+  height: 30px;
+  background-color: #1b98f5;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: auto;
+  font-size: 20px;
+}
+.name {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.nameIcon {
+  margin-left: auto;
+  margin-right: 35px;
+}
+
+.nameRow {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.verticalLine {
+  width: 2px;
+  height: 100%;
+  border-left: 1px solid white;
+}
+
+.availableAmount {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #242b2e;
+  margin: 8px;
+  padding: 5px 0px;
+  border-radius: 10px;
+  text-align: center;
+}
+.stockName {
+  align-items: center;
+  background-color: #51e1ed;
+  margin: 8px;
+  padding: 5px 0px;
+  border-radius: 10px;
+  text-align: center;
+  color: #1b98f5;
+}
+
+.sidebarseperation {
+  display: flex;
+  flex-direction: column;
+}
+
+.avalance {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #242b2e;
+  margin: 8px;
+  padding: 3px 0px;
+  border-radius: 10px;
+  text-align: center;
+}
+.id {
+  /* align-items: center; */
+  background-color: transparent;
+  margin: 8px;
+  padding: 5px 0px;
+  border-radius: 10px;
+  border: 1px solid blue;
+  color: white;
+}
+
+.sidebarseperation {
+  display: flex;
+  flex-direction: column;
+}
+.form-control {
+  background-color: #242b2e;
+  margin: 0;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+}
+
+.badges {
+  padding: 5px;
+  /* border:1px solid white; */
+  background-color: #758283;
+  margin-right: 5px;
+  border-radius: 10px;
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.name {
+  color: #484b4b;
+}
+
+.spam-link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+/* #151616 , #252b2b*/

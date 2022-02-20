@@ -1,0 +1,20 @@
+.section {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  padding: 8px;
+  margin: 3px;
+}
+
+.sectionName {
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 3px;
+}
+
+.section:hover {
+  background-color: #242b2e;
+  border-radius: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
